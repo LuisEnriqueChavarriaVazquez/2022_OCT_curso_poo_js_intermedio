@@ -1,0 +1,19 @@
+{
+  "name": "2022_oct_curso_poo_js_intermedio",
+  "version": "1.0.0",
+  "description": "Curso de poo intermedio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisEnriqueChavarriaVazquez/2022_OCT_curso_poo_js_intermedio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisEnriqueChavarriaVazquez/2022_OCT_curso_poo_js_intermedio/issues"
+  },
+  "homepage": "https://github.com/LuisEnriqueChavarriaVazquez/2022_OCT_curso_poo_js_intermedio#readme"
+}
