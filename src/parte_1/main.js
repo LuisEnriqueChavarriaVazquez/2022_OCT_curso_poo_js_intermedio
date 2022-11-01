@@ -27,7 +27,7 @@ hacer lo siguiente*/
 //Entonces hay que hacer esto...
 Object.defineProperty(luis, 'pruebaUno', {
     value: 'Valor en texto, prueba 1',
-    enumerable: false,
+    enumerable: false, //no se muestra con keys, solo con getOwnProperties
     writable: true,
     configurable: true
 });
@@ -35,7 +35,7 @@ Object.defineProperty(luis, 'pruebaUno', {
 Object.defineProperty(luis, 'pruebaDos', {
     value: 'Valor en texto, prueba 2',
     enumerable: true,
-    writable: false,
+    writable: false, 
     configurable: true
 });
 
@@ -47,5 +47,6 @@ Object.defineProperty(luis, 'pruebaTres', {
 });
 
 console.log(luis);
+
 //Nos muestra más propiedades ocultas de cada atributo.
 console.log(Object.getOwnPropertyDescriptors(luis));
